@@ -1,0 +1,38 @@
+---
+import Section from "./SeccionComun.astro";
+---
+
+<Section
+  title="Consigue la casa de tus sueños"
+  subtitle="Seguro que tu tambien quieres tener una casa como esta"
+  color="white"
+  id="pagina-4"
+>
+  <div slot="footer">
+    <a class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded 
+      font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      target=-blank>
+      La casa de tus sueños esta a un solo click
+    </a>
+  </div>
+
+  <img
+  slot="background"
+  alt="Imagen"
+  class="h-full w-full object-cover object-center bg-image"
+  src="imagen_4.jpg"
+  id="bg-image-background1"
+/>
+
+<!--
+  <video
+    slot="background"
+    class="object-center object-cover h-full w-full"
+    autoplay
+    muted
+    loop
+    src="/video.webm">
+  </video>
+-->
+</Section>

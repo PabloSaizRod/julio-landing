@@ -1,0 +1,27 @@
+---
+import Section from "./SeccionComun.astro";
+---
+
+<Section
+  title="Permíteme que me presente"
+  subtitle="Mi nombre es Julio, y tengo una idea de negocio con la que nunca más tendras que trabajar"
+  color="white"
+  id="pagina-1"
+>
+  <div slot="footer" class="gap-x-6 flex mx-auto">
+    <a class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded 
+      font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      target=-blank>
+      Comienza ya
+    </a>
+  </div>
+
+  <img
+    slot="background"
+    alt="Imagen"
+    class="h-full w-full object-cover object-center bg-image"
+    src="imagen_1.jpg"
+    id="bg-image-background1"
+  />
+</Section>

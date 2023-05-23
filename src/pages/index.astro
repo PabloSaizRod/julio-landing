@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Cabecera from "../components/Cabecera.astro";
+import SeccionUno from "../components/Seccion1.astro";
+import SeccionDos from "../components/Seccion2.astro";
+import SeccionTres from "../components/Seccion3.astro";
+import SeccionCuatro from "../components/Seccion4.astro";
+---
+
+<Layout title="Julioxfree">
+	<Cabecera/>
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
+		<div class="snap-center">
+			<SeccionUno/>
+		</div>
+		<div class="snap-center">
+			<SeccionDos/>
+		</div>
+		<div class="snap-center">
+			<SeccionTres/>
+		</div>
+		<div class="snap-center">
+			<SeccionCuatro/>
+		</div>
+	</main>
+</Layout>
